@@ -1,0 +1,26 @@
+{
+  "gated_robust_vs_ensemble_ungated": {
+    "mean_difference": -13.111476186421188,
+    "median_difference": 0.0,
+    "ci95_low": -26.00476260968151,
+    "ci95_high": -2.6222085880968278,
+    "p_value": 0.025390866043248448,
+    "win_rate_a_over_b": 1.0
+  },
+  "gated_robust_vs_always_robust_optim": {
+    "mean_difference": 0.0,
+    "median_difference": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0,
+    "p_value": NaN,
+    "win_rate_a_over_b": 0.0
+  },
+  "gated_robust_vs_always_rule_based": {
+    "mean_difference": 16.71634514369468,
+    "median_difference": 18.788041071428438,
+    "ci95_low": 12.143407343059511,
+    "ci95_high": 21.90630445917278,
+    "p_value": 2.77089209180735e-07,
+    "win_rate_a_over_b": 0.0
+  }
+}

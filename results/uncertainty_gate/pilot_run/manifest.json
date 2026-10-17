@@ -1,0 +1,25 @@
+{
+  "run_id": "uncertainty_1792153253",
+  "elapsed_seconds": 12.193855047225952,
+  "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+  "python_version": "3.14.6",
+  "torch_version": "2.12.1",
+  "config": {
+    "n_train_worlds": 40,
+    "n_val_worlds": 10,
+    "n_calib_worlds": 15,
+    "n_test_worlds_per_regime": 20,
+    "n_splits": 3,
+    "epochs": 18,
+    "ensemble_size": 3,
+    "device": "cpu",
+    "seed": 9601,
+    "gate_metric": "top_action_disagreement"
+  },
+  "calibrated_thresholds": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "total_traces": 1440
+}

@@ -1,0 +1,32 @@
+{
+  "normalized_score_spread": {
+    "spearman_correlation_with_regret": -0.09438243348530538,
+    "p_value": 0.14489878653359148,
+    "auroc_high_regret": 0.478125,
+    "prauc_high_regret": 0.48770552161310227
+  },
+  "top_action_disagreement": {
+    "spearman_correlation_with_regret": 0.10570007999641291,
+    "p_value": 0.10235785940334036,
+    "auroc_high_regret": 0.5069097222222223,
+    "prauc_high_regret": 0.5454268292682927
+  },
+  "pairwise_rank_disagreement": {
+    "spearman_correlation_with_regret": 0.18175347332539374,
+    "p_value": 0.004734317298931434,
+    "auroc_high_regret": 0.5499999999999999,
+    "prauc_high_regret": 0.5876347429519071
+  },
+  "score_margin": {
+    "spearman_correlation_with_regret": -0.09341802868430274,
+    "p_value": 0.14906917611357218,
+    "auroc_high_regret": 0.45576388888888886,
+    "prauc_high_regret": 0.47397981561862124
+  },
+  "raw_score_std": {
+    "spearman_correlation_with_regret": -0.01661126513092112,
+    "p_value": 0.7979394552492591,
+    "auroc_high_regret": 0.5170833333333333,
+    "prauc_high_regret": 0.518616558154317
+  }
+}

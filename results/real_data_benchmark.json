@@ -1,0 +1,38 @@
+{
+  "dataset": "Dingdong-Inc/FreshRetailNet-50K",
+  "provenance_url": "https://huggingface.co/datasets/Dingdong-Inc/FreshRetailNet-50K",
+  "sample_size": 15000,
+  "history_window_days": 5,
+  "test_date": "2024-07-02",
+  "elapsed_seconds": 21.649107933044434,
+  "models": {
+    "seasonal_naive": {
+      "MAE": 0.677843999366375,
+      "RMSE": 1.144436466226234,
+      "WAPE": 0.605923132619227,
+      "Stockout_ROC_AUC": 0.5809767237953348,
+      "Stockout_PR_AUC": 0.5226490000903821
+    },
+    "extratrees_tabular": {
+      "MAE": 0.39354647574431834,
+      "RMSE": 0.6675620327080813,
+      "WAPE": 0.35179025503973943,
+      "Stockout_ROC_AUC": 0.5245753487153624,
+      "Stockout_PR_AUC": 0.49658538536008134
+    },
+    "baseline_mlp": {
+      "MAE": 0.40710172057151794,
+      "RMSE": 0.7280279397964478,
+      "WAPE": 0.36390724778175354,
+      "Stockout_ROC_AUC": 0.608202790435745,
+      "Stockout_PR_AUC": 0.5587269633220111
+    },
+    "jepa_representation": {
+      "MAE": 0.661536455154419,
+      "RMSE": 1.8910281658172607,
+      "WAPE": 0.5913458466529846,
+      "Stockout_ROC_AUC": 0.6195690934915377,
+      "Stockout_PR_AUC": 0.5846168192221086
+    }
+  }
+}

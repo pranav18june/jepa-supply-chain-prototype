@@ -1,0 +1,274 @@
+{
+  "in_distribution": {
+    "single_member": {
+      "regret_mean": 4.431585748738234,
+      "regret_std": 4.6391963160693335,
+      "regret_median": 2.9349598616115458,
+      "cost_mean": 270.0947265625,
+      "cvar_95": 453.0417175292969,
+      "top1_acc_mean": 0.2,
+      "pairwise_acc_mean": 0.83,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "ensemble_ungated": {
+      "regret_mean": 1.66610722534748,
+      "regret_std": 4.99832167604244,
+      "regret_median": 0.0,
+      "cost_mean": 267.3292541503906,
+      "cvar_95": 445.4709167480469,
+      "top1_acc_mean": 0.9,
+      "pairwise_acc_mean": 0.88,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "always_rule_based": {
+      "regret_mean": 4.5935738852469425,
+      "regret_std": 4.501806378887328,
+      "regret_median": 2.9349598616115458,
+      "cost_mean": 270.2567138671875,
+      "cvar_95": 453.0417175292969,
+      "top1_acc_mean": 0.0,
+      "pairwise_acc_mean": 0.63,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "always_robust_optim": {
+      "regret_mean": 0.0,
+      "regret_std": 0.0,
+      "regret_median": 0.0,
+      "cost_mean": 265.66314697265625,
+      "cvar_95": 445.4709167480469,
+      "top1_acc_mean": 1.0,
+      "pairwise_acc_mean": 0.93,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "gated_ensemble_robust": {
+      "regret_mean": 0.0,
+      "regret_std": 0.0,
+      "regret_median": 0.0,
+      "cost_mean": 267.3292541503906,
+      "cvar_95": 445.4709167480469,
+      "top1_acc_mean": 0.9,
+      "pairwise_acc_mean": 0.88,
+      "fallback_rate_mean": 0.8,
+      "catastrophic_rate_mean": 0.0
+    },
+    "gated_ensemble_rule": {
+      "regret_mean": 4.431585748738234,
+      "regret_std": 4.6391963160693335,
+      "regret_median": 2.9349598616115458,
+      "cost_mean": 267.3292541503906,
+      "cvar_95": 445.4709167480469,
+      "top1_acc_mean": 0.9,
+      "pairwise_acc_mean": 0.88,
+      "fallback_rate_mean": 0.8,
+      "catastrophic_rate_mean": 0.0
+    }
+  },
+  "severity_shift": {
+    "single_member": {
+      "regret_mean": 28.774013058731423,
+      "regret_std": 13.374915870825445,
+      "regret_median": 31.254720061054286,
+      "cost_mean": 679.3218994140625,
+      "cvar_95": 856.4263305664062,
+      "top1_acc_mean": 0.1,
+      "pairwise_acc_mean": 0.53,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "ensemble_ungated": {
+      "regret_mean": 4.083891538282762,
+      "regret_std": 6.989207901407796,
+      "regret_median": 0.0,
+      "cost_mean": 654.6317749023438,
+      "cvar_95": 841.7772216796875,
+      "top1_acc_mean": 0.7,
+      "pairwise_acc_mean": 0.56,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "always_rule_based": {
+      "regret_mean": 73.80274582341583,
+      "regret_std": 59.21043344355016,
+      "regret_median": 45.01806014217618,
+      "cost_mean": 724.3506469726562,
+      "cvar_95": 848.1376953125,
+      "top1_acc_mean": 0.0,
+      "pairwise_acc_mean": 0.43,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "always_robust_optim": {
+      "regret_mean": 4.083891538282762,
+      "regret_std": 6.989207901407796,
+      "regret_median": 0.0,
+      "cost_mean": 654.6317749023438,
+      "cvar_95": 841.7772216796875,
+      "top1_acc_mean": 0.7,
+      "pairwise_acc_mean": 0.73,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "gated_ensemble_robust": {
+      "regret_mean": 4.083891538282762,
+      "regret_std": 6.989207901407796,
+      "regret_median": 0.0,
+      "cost_mean": 654.6317749023438,
+      "cvar_95": 841.7772216796875,
+      "top1_acc_mean": 0.7,
+      "pairwise_acc_mean": 0.56,
+      "fallback_rate_mean": 0.8,
+      "catastrophic_rate_mean": 0.0
+    },
+    "gated_ensemble_rule": {
+      "regret_mean": 55.079324136374495,
+      "regret_std": 56.595823994012264,
+      "regret_median": 37.22810521548632,
+      "cost_mean": 654.6317749023438,
+      "cvar_95": 841.7772216796875,
+      "top1_acc_mean": 0.7,
+      "pairwise_acc_mean": 0.56,
+      "fallback_rate_mean": 0.8,
+      "catastrophic_rate_mean": 0.0
+    }
+  },
+  "compound_shift": {
+    "single_member": {
+      "regret_mean": 33.69928857617326,
+      "regret_std": 14.068009235686775,
+      "regret_median": 32.03182986497859,
+      "cost_mean": 1544.2852783203125,
+      "cvar_95": 1906.2684326171875,
+      "top1_acc_mean": 0.0,
+      "pairwise_acc_mean": 0.40404040404040403,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "ensemble_ungated": {
+      "regret_mean": 24.574183665253077,
+      "regret_std": 13.959538502729526,
+      "regret_median": 24.541577686828873,
+      "cost_mean": 1533.5819091796875,
+      "cvar_95": 1890.907958984375,
+      "top1_acc_mean": 0.0,
+      "pairwise_acc_mean": 0.42424242424242425,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "always_rule_based": {
+      "regret_mean": 0.0,
+      "regret_std": 0.0,
+      "regret_median": 0.0,
+      "cost_mean": 1510.5860595703125,
+      "cvar_95": 1880.8106689453125,
+      "top1_acc_mean": 1.0,
+      "pairwise_acc_mean": 0.696969696969697,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "always_robust_optim": {
+      "regret_mean": 19.840317882833254,
+      "regret_std": 15.570173149433918,
+      "regret_median": 16.74253751171841,
+      "cost_mean": 1530.42626953125,
+      "cvar_95": 1890.907958984375,
+      "top1_acc_mean": 0.0,
+      "pairwise_acc_mean": 0.6060606060606061,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "gated_ensemble_robust": {
+      "regret_mean": 19.840317882833254,
+      "regret_std": 15.570173149433918,
+      "regret_median": 16.74253751171841,
+      "cost_mean": 1533.5819091796875,
+      "cvar_95": 1890.907958984375,
+      "top1_acc_mean": 0.0,
+      "pairwise_acc_mean": 0.42424242424242425,
+      "fallback_rate_mean": 0.9,
+      "catastrophic_rate_mean": 0.0
+    },
+    "gated_ensemble_rule": {
+      "regret_mean": 4.197092827744564,
+      "regret_std": 12.59127848323369,
+      "regret_median": 0.0,
+      "cost_mean": 1533.5819091796875,
+      "cvar_95": 1890.907958984375,
+      "top1_acc_mean": 0.0,
+      "pairwise_acc_mean": 0.42424242424242425,
+      "fallback_rate_mean": 0.9,
+      "catastrophic_rate_mean": 0.0
+    }
+  },
+  "mechanism_shift": {
+    "single_member": {
+      "regret_mean": 5.215854137261681,
+      "regret_std": 0.8467408981896178,
+      "regret_median": 5.270278091430441,
+      "cost_mean": 1354.36669921875,
+      "cvar_95": 1733.410400390625,
+      "top1_acc_mean": 0.0,
+      "pairwise_acc_mean": 0.8,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "ensemble_ungated": {
+      "regret_mean": 5.549884680497598,
+      "regret_std": 0.8919560886213767,
+      "regret_median": 5.491491090456407,
+      "cost_mean": 1354.802490234375,
+      "cvar_95": 1734.787841796875,
+      "top1_acc_mean": 0.0,
+      "pairwise_acc_mean": 0.76,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "always_rule_based": {
+      "regret_mean": 97.66127266883844,
+      "regret_std": 24.67749812677224,
+      "regret_median": 93.37521197795877,
+      "cost_mean": 1446.81201171875,
+      "cvar_95": 1808.86962890625,
+      "top1_acc_mean": 0.0,
+      "pairwise_acc_mean": 0.29,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "always_robust_optim": {
+      "regret_mean": 5.6517410330350915,
+      "regret_std": 1.0428150369714073,
+      "regret_median": 5.7987250188389226,
+      "cost_mean": 1354.802490234375,
+      "cvar_95": 1734.787841796875,
+      "top1_acc_mean": 0.0,
+      "pairwise_acc_mean": 0.61,
+      "fallback_rate_mean": 0.0,
+      "catastrophic_rate_mean": 0.0
+    },
+    "gated_ensemble_robust": {
+      "regret_mean": 5.6517410330350915,
+      "regret_std": 1.0428150369714073,
+      "regret_median": 5.7987250188389226,
+      "cost_mean": 1354.802490234375,
+      "cvar_95": 1734.787841796875,
+      "top1_acc_mean": 0.0,
+      "pairwise_acc_mean": 0.76,
+      "fallback_rate_mean": 0.9,
+      "catastrophic_rate_mean": 0.0
+    },
+    "gated_ensemble_rule": {
+      "regret_mean": 91.60211547327035,
+      "regret_std": 36.206915406369184,
+      "regret_median": 93.37521197795877,
+      "cost_mean": 1354.802490234375,
+      "cvar_95": 1734.787841796875,
+      "top1_acc_mean": 0.0,
+      "pairwise_acc_mean": 0.76,
+      "fallback_rate_mean": 0.9,
+      "catastrophic_rate_mean": 0.0
+    }
+  }
+}

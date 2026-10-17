@@ -1,0 +1,10 @@
+# Versions used on Python 3.14.6 macOS arm64; CPU experiments.
+torch==2.12.1
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.17.1
+scikit-learn==1.9.0
+matplotlib==3.11.0
+pyarrow==25.0.0
+pytest==9.0.3
+huggingface-hub==1.16.0

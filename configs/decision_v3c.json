@@ -1,0 +1,80 @@
+{
+  "protocol": "decision_v3c",
+  "description": "v3c: v3b with starvation windows 10-30 days (destination starts with ~15 days of stock) and uniform extreme probability 0.25, after v3b failed backlog/max-request coverage gates. Seeds disjoint from v3a/v3b and earlier runs.",
+  "seed_base": 33000,
+  "days": 60,
+  "n_items": 3,
+  "maximum": 1000,
+  "splits": {
+    "train": 240,
+    "validation": 48,
+    "test": 48,
+    "test_ood": 48
+  },
+  "scenario_iid": {
+    "ss_scale": [
+      0.04,
+      0.12
+    ],
+    "base_lambda_lo": [
+      25.0,
+      45.0
+    ],
+    "lambda_width": [
+      10.0,
+      25.0
+    ],
+    "leadtime_scale": [
+      0.7,
+      1.4
+    ],
+    "containers_scale": [
+      0.4,
+      1.0
+    ],
+    "burst_rate_scale": 0.0,
+    "shock_count_scale": 0.0
+  },
+  "scenario_ood": {
+    "ss_scale": [
+      0.03,
+      0.06
+    ],
+    "base_lambda_lo": [
+      50.0,
+      70.0
+    ],
+    "lambda_width": [
+      15.0,
+      30.0
+    ],
+    "leadtime_scale": [
+      1.2,
+      1.8
+    ],
+    "containers_scale": [
+      0.3,
+      0.5
+    ],
+    "burst_rate_scale": 20.0,
+    "shock_count_scale": 0.0
+  },
+  "behaviors_iid": [
+    "native_noise",
+    "basestock",
+    "uniform",
+    "intermittent",
+    "mixed_item",
+    "starve_recover"
+  ],
+  "behaviors_ood": [
+    "piecewise_constant",
+    "native_noise",
+    "basestock"
+  ],
+  "uniform_extreme_prob": 0.25,
+  "starve_range": [
+    10,
+    31
+  ]
+}

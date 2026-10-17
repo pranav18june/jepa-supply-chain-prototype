@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/tuhinsahai/ISOMORPH",
+  "commit": "9ab2689cbbe02ef5e9bb614f5e9ea60df159abc7",
+  "source": "simulator/Supplychaingeo_item50.py",
+  "source_sha256": "728aa756d07324ceeb5ff3fe04c39a15a8a4b24fa4a85e60b7340721608c537b",
+  "license": "MIT",
+  "modification": "(1) Five-line optional dispatch-target override before ship_target feasibility check. (2) 2026-10-17 round_claude: step() split into step_before_dispatch (steps 1-4: receive, arrivals, edge reset, demand) and step_dispatch_and_after (steps 5-7) with unchanged order of operations; step() calls both. All original transitions retained; default-policy parity tests against the pinned upstream file still pass.",
+  "modified_sha256": "9fb5a1903abd32df04ea0a0ef1b270ffa2c8d58f22786a63d616d106b79735b1"
+}

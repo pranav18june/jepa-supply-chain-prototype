@@ -1,0 +1,84 @@
+{
+  "track": "B: locally adapted ISOMORPH; assumed costs; engineering smoke",
+  "methods": {
+    "native_policy": {
+      "cost_mean": 349.99,
+      "cost_bootstrap95": [
+        293.492,
+        406.488
+      ],
+      "fill_rate_mean": 1.0,
+      "episodes": 4,
+      "fallback_count": 0
+    },
+    "forecast_dispatch": {
+      "cost_mean": 346.486,
+      "cost_bootstrap95": [
+        288.06,
+        404.91200000000003
+      ],
+      "fill_rate_mean": 1.0,
+      "episodes": 4,
+      "fallback_count": 0
+    },
+    "random_feasible": {
+      "cost_mean": 985.8275000000001,
+      "cost_bootstrap95": [
+        916.24675,
+        1059.13275
+      ],
+      "fill_rate_mean": 1.0,
+      "episodes": 4,
+      "fallback_count": 0
+    },
+    "ema_jepa": {
+      "cost_mean": 8893.0635,
+      "cost_bootstrap95": [
+        3999.5784999999996,
+        14425.3865
+      ],
+      "fill_rate_mean": 0.5848645166465094,
+      "episodes": 4,
+      "fallback_count": 0
+    },
+    "sigreg_jepa": {
+      "cost_mean": 8893.0635,
+      "cost_bootstrap95": [
+        3999.5784999999996,
+        14425.3865
+      ],
+      "fill_rate_mean": 0.5848645166465094,
+      "episodes": 4,
+      "fallback_count": 0
+    },
+    "supervised": {
+      "cost_mean": 8893.0635,
+      "cost_bootstrap95": [
+        3999.5784999999996,
+        14425.3865
+      ],
+      "fill_rate_mean": 0.5848645166465094,
+      "episodes": 4,
+      "fallback_count": 0
+    },
+    "no_action": {
+      "cost_mean": 1077.52225,
+      "cost_bootstrap95": [
+        1007.2905,
+        1147.754
+      ],
+      "fill_rate_mean": 1.0,
+      "episodes": 4,
+      "fallback_count": 0
+    }
+  },
+  "elapsed_seconds": 4.480431875010254,
+  "source_commit": "9ab2689cbbe02ef5e9bb614f5e9ea60df159abc7",
+  "limitations": [
+    "Small sample; not a confirmatory benchmark",
+    "Fixed topology with 3-item catalog",
+    "Source lead-time RNG consumption can differ by policy; paired seeds are not full CRN",
+    "No calibrated uncertainty claim",
+    "Final holdout not used for checkpoint selection"
+  ]
+}

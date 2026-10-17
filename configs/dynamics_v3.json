@@ -1,0 +1,16 @@
+{
+  "data": "prototype_new/results/decision_v3d/data",
+  "train_horizon": 8,
+  "epochs": 60,
+  "batch_size": 256,
+  "lr": 0.001,
+  "grad_clip": 10.0,
+  "torch_threads": 8,
+  "ridge_alphas": [0.01, 0.1, 1.0, 10.0, 100.0, 1000.0],
+  "delta_mlp_seeds": [0, 1, 2, 3, 4],
+  "latent_seeds": [0, 1, 2],
+  "latent_objectives": ["latent_sup", "ema", "sigreg", "jepa_only"],
+  "width": 256,
+  "latent_dim": 64,
+  "ema_momentum": 0.99
+}

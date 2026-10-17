@@ -1,0 +1,18 @@
+{
+  "dataset_name": "Dingdong-Inc/FreshRetailNet-50K",
+  "dataset_path": "prototype_new/data/fresh_retail_net/data/eval.parquet",
+  "dataset_sha256": "1b118840664280c6b88bffc84c80ee1f54c05d911e354b7599e5da10995e960e",
+  "license": "CC BY 4.0",
+  "sample_series_count": 15000,
+  "train_dates": [
+    "2024-06-26",
+    "2024-06-27",
+    "2024-06-28",
+    "2024-06-29",
+    "2024-06-30"
+  ],
+  "val_date": "2024-07-01",
+  "test_date": "2024-07-02",
+  "elapsed_seconds": 13.267478942871094,
+  "prevalence_stockout_test": 0.4696666666666667
+}

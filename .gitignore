@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+node_modules/
+
+# Data subsets and caches (re-fetch with experiments/fetch_*.py)
+data/
+
+# Generated results: keep only small JSON/Markdown summaries
+results/**
+!results/**/
+!results/**/*.json
+!results/**/*.md
+results/**/raw.json
+results/**/transitions.json*
+results/**/*training.json
+results/**/execution_audit/*.json
+
+# Binary artefacts anywhere
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.parquet
+*.tar.gz
+*.zip
+results_seedfixed*/
+results/**/data/manifest.json
+results/**/forecast_baseline.json

@@ -1,0 +1,896 @@
+{
+  "summary": {
+    "in_distribution": {
+      "rule_based": {
+        "regret_mean": 44.182777404785156,
+        "regret_std": 0.0,
+        "cost_mean": 403.4541320800781,
+        "tail_cvar_mean": 931.7211303710938,
+        "top1_acc_mean": 0.06666666666666667,
+        "pairwise_acc_mean": 0.58,
+        "catastrophic_rate_mean": 0.0
+      },
+      "forecast_optim": {
+        "regret_mean": 12.77975082397461,
+        "regret_std": 0.0,
+        "cost_mean": 372.0511169433594,
+        "tail_cvar_mean": 844.01904296875,
+        "top1_acc_mean": 0.06666666666666667,
+        "pairwise_acc_mean": 0.5933333333333334,
+        "catastrophic_rate_mean": 0.0
+      },
+      "robust_optim": {
+        "regret_mean": 0.0926717147231102,
+        "regret_std": 0.0,
+        "cost_mean": 359.36407470703125,
+        "tail_cvar_mean": 804.802734375,
+        "top1_acc_mean": 0.9333333333333333,
+        "pairwise_acc_mean": 0.88,
+        "catastrophic_rate_mean": 0.0
+      },
+      "conventional_dynamics": {
+        "regret_mean": 115.16294860839844,
+        "regret_std": 0.0,
+        "cost_mean": 474.4342956542969,
+        "tail_cvar_mean": 804.802734375,
+        "top1_acc_mean": 0.3333333333333333,
+        "pairwise_acc_mean": 0.6266666666666667,
+        "catastrophic_rate_mean": 0.13333333333333333
+      },
+      "standard_jepa": {
+        "regret_mean": 219.83517456054688,
+        "regret_std": 0.0,
+        "cost_mean": 579.1065673828125,
+        "tail_cvar_mean": 931.7211303710938,
+        "top1_acc_mean": 0.0,
+        "pairwise_acc_mean": 0.5933333333333334,
+        "catastrophic_rate_mean": 0.4666666666666667
+      },
+      "matched_random_jepa": {
+        "regret_mean": 219.83517456054688,
+        "regret_std": 0.0,
+        "cost_mean": 579.1065673828125,
+        "tail_cvar_mean": 931.7211303710938,
+        "top1_acc_mean": 0.0,
+        "pairwise_acc_mean": 0.5933333333333334,
+        "catastrophic_rate_mean": 0.4666666666666667
+      },
+      "generic_decision_jepa": {
+        "regret_mean": 219.83517456054688,
+        "regret_std": 0.0,
+        "cost_mean": 579.1065673828125,
+        "tail_cvar_mean": 931.7211303710938,
+        "top1_acc_mean": 0.0,
+        "pairwise_acc_mean": 0.5933333333333334,
+        "catastrophic_rate_mean": 0.4666666666666667
+      },
+      "proposed_risk_sensitive_jepa": {
+        "regret_mean": 219.83517456054688,
+        "regret_std": 0.0,
+        "cost_mean": 579.1065673828125,
+        "tail_cvar_mean": 931.7211303710938,
+        "top1_acc_mean": 0.0,
+        "pairwise_acc_mean": 0.5933333333333334,
+        "catastrophic_rate_mean": 0.4666666666666667
+      }
+    },
+    "severity_shift": {
+      "rule_based": {
+        "regret_mean": 49.87458419799805,
+        "regret_std": 0.0,
+        "cost_mean": 694.2569580078125,
+        "tail_cvar_mean": 948.358154296875,
+        "top1_acc_mean": 0.13333333333333333,
+        "pairwise_acc_mean": 0.5302013422818792,
+        "catastrophic_rate_mean": 0.0
+      },
+      "forecast_optim": {
+        "regret_mean": 40.183414459228516,
+        "regret_std": 0.0,
+        "cost_mean": 684.5658569335938,
+        "tail_cvar_mean": 996.5673828125,
+        "top1_acc_mean": 0.0,
+        "pairwise_acc_mean": 0.48322147651006714,
+        "catastrophic_rate_mean": 0.0
+      },
+      "robust_optim": {
+        "regret_mean": 5.069974899291992,
+        "regret_std": 0.0,
+        "cost_mean": 649.4524536132812,
+        "tail_cvar_mean": 981.2380981445312,
+        "top1_acc_mean": 0.8666666666666667,
+        "pairwise_acc_mean": 0.785234899328859,
+        "catastrophic_rate_mean": 0.0
+      },
+      "conventional_dynamics": {
+        "regret_mean": 5.069974899291992,
+        "regret_std": 0.0,
+        "cost_mean": 649.4524536132812,
+        "tail_cvar_mean": 981.2380981445312,
+        "top1_acc_mean": 0.8666666666666667,
+        "pairwise_acc_mean": 0.7248322147651006,
+        "catastrophic_rate_mean": 0.0
+      },
+      "standard_jepa": {
+        "regret_mean": 95.4441909790039,
+        "regret_std": 0.0,
+        "cost_mean": 739.8265991210938,
+        "tail_cvar_mean": 949.9151611328125,
+        "top1_acc_mean": 0.13333333333333333,
+        "pairwise_acc_mean": 0.48322147651006714,
+        "catastrophic_rate_mean": 0.0
+      },
+      "matched_random_jepa": {
+        "regret_mean": 95.4441909790039,
+        "regret_std": 0.0,
+        "cost_mean": 739.8265991210938,
+        "tail_cvar_mean": 949.9151611328125,
+        "top1_acc_mean": 0.13333333333333333,
+        "pairwise_acc_mean": 0.48322147651006714,
+        "catastrophic_rate_mean": 0.0
+      },
+      "generic_decision_jepa": {
+        "regret_mean": 95.4441909790039,
+        "regret_std": 0.0,
+        "cost_mean": 739.8265991210938,
+        "tail_cvar_mean": 949.9151611328125,
+        "top1_acc_mean": 0.13333333333333333,
+        "pairwise_acc_mean": 0.48322147651006714,
+        "catastrophic_rate_mean": 0.0
+      },
+      "proposed_risk_sensitive_jepa": {
+        "regret_mean": 95.4441909790039,
+        "regret_std": 0.0,
+        "cost_mean": 739.8265991210938,
+        "tail_cvar_mean": 949.9151611328125,
+        "top1_acc_mean": 0.13333333333333333,
+        "pairwise_acc_mean": 0.48322147651006714,
+        "catastrophic_rate_mean": 0.0
+      }
+    },
+    "compound_shift": {
+      "rule_based": {
+        "regret_mean": 2.718229055404663,
+        "regret_std": 0.0,
+        "cost_mean": 1441.1795654296875,
+        "tail_cvar_mean": 1768.2044677734375,
+        "top1_acc_mean": 0.8666666666666667,
+        "pairwise_acc_mean": 0.6733333333333333,
+        "catastrophic_rate_mean": 0.0
+      },
+      "forecast_optim": {
+        "regret_mean": 39.63353729248047,
+        "regret_std": 0.0,
+        "cost_mean": 1478.0948486328125,
+        "tail_cvar_mean": 1804.17822265625,
+        "top1_acc_mean": 0.0,
+        "pairwise_acc_mean": 0.32666666666666666,
+        "catastrophic_rate_mean": 0.0
+      },
+      "robust_optim": {
+        "regret_mean": 22.954980850219727,
+        "regret_std": 0.0,
+        "cost_mean": 1461.4161376953125,
+        "tail_cvar_mean": 1788.5140380859375,
+        "top1_acc_mean": 0.13333333333333333,
+        "pairwise_acc_mean": 0.6266666666666667,
+        "catastrophic_rate_mean": 0.0
+      },
+      "conventional_dynamics": {
+        "regret_mean": 73.72806549072266,
+        "regret_std": 0.0,
+        "cost_mean": 1512.1893310546875,
+        "tail_cvar_mean": 1788.5140380859375,
+        "top1_acc_mean": 0.13333333333333333,
+        "pairwise_acc_mean": 0.5066666666666667,
+        "catastrophic_rate_mean": 0.0
+      },
+      "standard_jepa": {
+        "regret_mean": 2.718229055404663,
+        "regret_std": 0.0,
+        "cost_mean": 1441.1795654296875,
+        "tail_cvar_mean": 1768.2044677734375,
+        "top1_acc_mean": 0.8666666666666667,
+        "pairwise_acc_mean": 0.32666666666666666,
+        "catastrophic_rate_mean": 0.0
+      },
+      "matched_random_jepa": {
+        "regret_mean": 2.718229055404663,
+        "regret_std": 0.0,
+        "cost_mean": 1441.1795654296875,
+        "tail_cvar_mean": 1768.2044677734375,
+        "top1_acc_mean": 0.8666666666666667,
+        "pairwise_acc_mean": 0.32666666666666666,
+        "catastrophic_rate_mean": 0.0
+      },
+      "generic_decision_jepa": {
+        "regret_mean": 2.718229055404663,
+        "regret_std": 0.0,
+        "cost_mean": 1441.1795654296875,
+        "tail_cvar_mean": 1768.2044677734375,
+        "top1_acc_mean": 0.8666666666666667,
+        "pairwise_acc_mean": 0.32666666666666666,
+        "catastrophic_rate_mean": 0.0
+      },
+      "proposed_risk_sensitive_jepa": {
+        "regret_mean": 2.718229055404663,
+        "regret_std": 0.0,
+        "cost_mean": 1441.1795654296875,
+        "tail_cvar_mean": 1768.2044677734375,
+        "top1_acc_mean": 0.8666666666666667,
+        "pairwise_acc_mean": 0.32666666666666666,
+        "catastrophic_rate_mean": 0.0
+      }
+    },
+    "mechanism_shift": {
+      "rule_based": {
+        "regret_mean": 86.82630920410156,
+        "regret_std": 0.0,
+        "cost_mean": 1372.2950439453125,
+        "tail_cvar_mean": 1827.4520263671875,
+        "top1_acc_mean": 0.0,
+        "pairwise_acc_mean": 0.27702702702702703,
+        "catastrophic_rate_mean": 0.0
+      },
+      "forecast_optim": {
+        "regret_mean": 5.3928914070129395,
+        "regret_std": 0.0,
+        "cost_mean": 1290.8616943359375,
+        "tail_cvar_mean": 1727.4910888671875,
+        "top1_acc_mean": 0.0,
+        "pairwise_acc_mean": 0.6824324324324325,
+        "catastrophic_rate_mean": 0.0
+      },
+      "robust_optim": {
+        "regret_mean": 5.839559078216553,
+        "regret_std": 0.0,
+        "cost_mean": 1291.3084716796875,
+        "tail_cvar_mean": 1727.974365234375,
+        "top1_acc_mean": 0.0,
+        "pairwise_acc_mean": 0.6216216216216216,
+        "catastrophic_rate_mean": 0.0
+      },
+      "conventional_dynamics": {
+        "regret_mean": 9.169343948364258,
+        "regret_std": 0.0,
+        "cost_mean": 1294.63818359375,
+        "tail_cvar_mean": 1727.974365234375,
+        "top1_acc_mean": 0.0,
+        "pairwise_acc_mean": 0.5135135135135135,
+        "catastrophic_rate_mean": 0.0
+      },
+      "standard_jepa": {
+        "regret_mean": 86.82630920410156,
+        "regret_std": 0.0,
+        "cost_mean": 1372.2950439453125,
+        "tail_cvar_mean": 1827.4520263671875,
+        "top1_acc_mean": 0.0,
+        "pairwise_acc_mean": 0.6824324324324325,
+        "catastrophic_rate_mean": 0.0
+      },
+      "matched_random_jepa": {
+        "regret_mean": 86.82630920410156,
+        "regret_std": 0.0,
+        "cost_mean": 1372.2950439453125,
+        "tail_cvar_mean": 1827.4520263671875,
+        "top1_acc_mean": 0.0,
+        "pairwise_acc_mean": 0.6824324324324325,
+        "catastrophic_rate_mean": 0.0
+      },
+      "generic_decision_jepa": {
+        "regret_mean": 86.82630920410156,
+        "regret_std": 0.0,
+        "cost_mean": 1372.2950439453125,
+        "tail_cvar_mean": 1827.4520263671875,
+        "top1_acc_mean": 0.0,
+        "pairwise_acc_mean": 0.6824324324324325,
+        "catastrophic_rate_mean": 0.0
+      },
+      "proposed_risk_sensitive_jepa": {
+        "regret_mean": 86.82630920410156,
+        "regret_std": 0.0,
+        "cost_mean": 1372.2950439453125,
+        "tail_cvar_mean": 1827.4520263671875,
+        "top1_acc_mean": 0.0,
+        "pairwise_acc_mean": 0.6824324324324325,
+        "catastrophic_rate_mean": 0.0
+      }
+    }
+  },
+  "raw_splits": {
+    "in_distribution": {
+      "rule_based": [
+        {
+          "mean_regret": 44.182777404785156,
+          "median_regret": 8.207550048828125,
+          "ci95_low": 16.072157287597655,
+          "ci95_high": 85.10482540130614,
+          "mean_cost": 403.4541320800781,
+          "across_world_cvar_95": 931.7211303710938,
+          "tail_cvar_95": 931.7211303710938,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.8832743197102517,
+          "top1_accuracy": 0.06666666666666667,
+          "pairwise_ranking_accuracy": 0.58,
+          "kendall_tau": 0.2529822128134704,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "forecast_optim": [
+        {
+          "mean_regret": 12.77975082397461,
+          "median_regret": 8.207550048828125,
+          "ci95_low": 7.750344860553741,
+          "ci95_high": 19.154664468765258,
+          "mean_cost": 372.0511169433594,
+          "across_world_cvar_95": 844.01904296875,
+          "tail_cvar_95": 844.01904296875,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.8681502889476899,
+          "top1_accuracy": 0.06666666666666667,
+          "pairwise_ranking_accuracy": 0.5933333333333334,
+          "kendall_tau": 0.33730961708462714,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "robust_optim": [
+        {
+          "mean_regret": 0.0926717147231102,
+          "median_regret": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.27801513671875,
+          "mean_cost": 359.36407470703125,
+          "across_world_cvar_95": 804.802734375,
+          "tail_cvar_95": 804.802734375,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.8704049737703513,
+          "top1_accuracy": 0.9333333333333333,
+          "pairwise_ranking_accuracy": 0.88,
+          "kendall_tau": 0.6113736809658867,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "conventional_dynamics": [
+        {
+          "mean_regret": 115.16294860839844,
+          "median_regret": 149.7235565185547,
+          "ci95_low": 69.7667890548706,
+          "ci95_high": 162.98860130310058,
+          "mean_cost": 474.4342956542969,
+          "across_world_cvar_95": 804.802734375,
+          "tail_cvar_95": 804.802734375,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.8155175052836002,
+          "top1_accuracy": 0.3333333333333333,
+          "pairwise_ranking_accuracy": 0.6266666666666667,
+          "kendall_tau": 0.33468731775641525,
+          "catastrophic_inversion_rate": 0.13333333333333333,
+          "fallback_rate": 0.0
+        }
+      ],
+      "standard_jepa": [
+        {
+          "mean_regret": 219.83517456054688,
+          "median_regret": 233.8912353515625,
+          "ci95_low": 200.65461349487305,
+          "ci95_high": 233.5082233428955,
+          "mean_cost": 579.1065673828125,
+          "across_world_cvar_95": 931.7211303710938,
+          "tail_cvar_95": 931.7211303710938,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.8924198752015773,
+          "top1_accuracy": 0.0,
+          "pairwise_ranking_accuracy": 0.5933333333333334,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.4666666666666667,
+          "fallback_rate": 0.0
+        }
+      ],
+      "matched_random_jepa": [
+        {
+          "mean_regret": 219.83517456054688,
+          "median_regret": 233.8912353515625,
+          "ci95_low": 200.65461349487305,
+          "ci95_high": 233.5082233428955,
+          "mean_cost": 579.1065673828125,
+          "across_world_cvar_95": 931.7211303710938,
+          "tail_cvar_95": 931.7211303710938,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.8924198752015773,
+          "top1_accuracy": 0.0,
+          "pairwise_ranking_accuracy": 0.5933333333333334,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.4666666666666667,
+          "fallback_rate": 0.0
+        }
+      ],
+      "generic_decision_jepa": [
+        {
+          "mean_regret": 219.83517456054688,
+          "median_regret": 233.8912353515625,
+          "ci95_low": 200.65461349487305,
+          "ci95_high": 233.5082233428955,
+          "mean_cost": 579.1065673828125,
+          "across_world_cvar_95": 931.7211303710938,
+          "tail_cvar_95": 931.7211303710938,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.8924198752015773,
+          "top1_accuracy": 0.0,
+          "pairwise_ranking_accuracy": 0.5933333333333334,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.4666666666666667,
+          "fallback_rate": 0.0
+        }
+      ],
+      "proposed_risk_sensitive_jepa": [
+        {
+          "mean_regret": 219.83517456054688,
+          "median_regret": 233.8912353515625,
+          "ci95_low": 200.65461349487305,
+          "ci95_high": 233.5082233428955,
+          "mean_cost": 579.1065673828125,
+          "across_world_cvar_95": 931.7211303710938,
+          "tail_cvar_95": 931.7211303710938,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.8924198752015773,
+          "top1_accuracy": 0.0,
+          "pairwise_ranking_accuracy": 0.5933333333333334,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.4666666666666667,
+          "fallback_rate": 0.0
+        }
+      ]
+    },
+    "severity_shift": {
+      "rule_based": [
+        {
+          "mean_regret": 49.87458419799805,
+          "median_regret": 44.989593505859375,
+          "ci95_low": 32.332044410705564,
+          "ci95_high": 71.92326774597164,
+          "mean_cost": 694.2569580078125,
+          "across_world_cvar_95": 948.358154296875,
+          "tail_cvar_95": 948.358154296875,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.5585843234109665,
+          "top1_accuracy": 0.13333333333333333,
+          "pairwise_ranking_accuracy": 0.5302013422818792,
+          "kendall_tau": 0.29514591494904874,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "forecast_optim": [
+        {
+          "mean_regret": 40.183414459228516,
+          "median_regret": 44.989593505859375,
+          "ci95_low": 34.18295831680298,
+          "ci95_high": 46.02629022598266,
+          "mean_cost": 684.5658569335938,
+          "across_world_cvar_95": 996.5673828125,
+          "tail_cvar_95": 996.5673828125,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.5072073675776247,
+          "top1_accuracy": 0.0,
+          "pairwise_ranking_accuracy": 0.48322147651006714,
+          "kendall_tau": 0.27406406388125953,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "robust_optim": [
+        {
+          "mean_regret": 5.069974899291992,
+          "median_regret": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 13.017928123474121,
+          "mean_cost": 649.4524536132812,
+          "across_world_cvar_95": 981.2380981445312,
+          "tail_cvar_95": 981.2380981445312,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.5362535704031128,
+          "top1_accuracy": 0.8666666666666667,
+          "pairwise_ranking_accuracy": 0.785234899328859,
+          "kendall_tau": 0.5902918298980975,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "conventional_dynamics": [
+        {
+          "mean_regret": 5.069974899291992,
+          "median_regret": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 13.017928123474121,
+          "mean_cost": 649.4524536132812,
+          "across_world_cvar_95": 981.2380981445312,
+          "tail_cvar_95": 981.2380981445312,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.5362535704031128,
+          "top1_accuracy": 0.8666666666666667,
+          "pairwise_ranking_accuracy": 0.7248322147651006,
+          "kendall_tau": 0.5471285880184998,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "standard_jepa": [
+        {
+          "mean_regret": 95.4441909790039,
+          "median_regret": 108.5968017578125,
+          "ci95_low": 69.52693252563476,
+          "ci95_high": 119.88874835968018,
+          "mean_cost": 739.8265991210938,
+          "across_world_cvar_95": 949.9151611328125,
+          "tail_cvar_95": 949.9151611328125,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.6528284655196678,
+          "top1_accuracy": 0.13333333333333333,
+          "pairwise_ranking_accuracy": 0.48322147651006714,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "matched_random_jepa": [
+        {
+          "mean_regret": 95.4441909790039,
+          "median_regret": 108.5968017578125,
+          "ci95_low": 69.52693252563476,
+          "ci95_high": 119.88874835968018,
+          "mean_cost": 739.8265991210938,
+          "across_world_cvar_95": 949.9151611328125,
+          "tail_cvar_95": 949.9151611328125,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.6528284655196678,
+          "top1_accuracy": 0.13333333333333333,
+          "pairwise_ranking_accuracy": 0.48322147651006714,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "generic_decision_jepa": [
+        {
+          "mean_regret": 95.4441909790039,
+          "median_regret": 108.5968017578125,
+          "ci95_low": 69.52693252563476,
+          "ci95_high": 119.88874835968018,
+          "mean_cost": 739.8265991210938,
+          "across_world_cvar_95": 949.9151611328125,
+          "tail_cvar_95": 949.9151611328125,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.6528284655196678,
+          "top1_accuracy": 0.13333333333333333,
+          "pairwise_ranking_accuracy": 0.48322147651006714,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "proposed_risk_sensitive_jepa": [
+        {
+          "mean_regret": 95.4441909790039,
+          "median_regret": 108.5968017578125,
+          "ci95_low": 69.52693252563476,
+          "ci95_high": 119.88874835968018,
+          "mean_cost": 739.8265991210938,
+          "across_world_cvar_95": 949.9151611328125,
+          "tail_cvar_95": 949.9151611328125,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.6528284655196678,
+          "top1_accuracy": 0.13333333333333333,
+          "pairwise_ranking_accuracy": 0.48322147651006714,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ]
+    },
+    "compound_shift": {
+      "rule_based": [
+        {
+          "mean_regret": 2.718229055404663,
+          "median_regret": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 6.542073726654053,
+          "mean_cost": 1441.1795654296875,
+          "across_world_cvar_95": 1768.2044677734375,
+          "tail_cvar_95": 1768.2044677734375,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.44856372444745424,
+          "top1_accuracy": 0.8666666666666667,
+          "pairwise_ranking_accuracy": 0.6733333333333333,
+          "kendall_tau": 0.5481281277625191,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "forecast_optim": [
+        {
+          "mean_regret": 39.63353729248047,
+          "median_regret": 36.052001953125,
+          "ci95_low": 32.79574108123779,
+          "ci95_high": 47.23622245788574,
+          "mean_cost": 1478.0948486328125,
+          "across_world_cvar_95": 1804.17822265625,
+          "tail_cvar_95": 1804.17822265625,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.3470242949521924,
+          "top1_accuracy": 0.0,
+          "pairwise_ranking_accuracy": 0.32666666666666666,
+          "kendall_tau": 0.04216370213557839,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "robust_optim": [
+        {
+          "mean_regret": 22.954980850219727,
+          "median_regret": 20.454833984375,
+          "ci95_low": 16.158264064788817,
+          "ci95_high": 30.563040113449098,
+          "mean_cost": 1461.4161376953125,
+          "across_world_cvar_95": 1788.5140380859375,
+          "tail_cvar_95": 1788.5140380859375,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.3678315525771618,
+          "top1_accuracy": 0.13333333333333333,
+          "pairwise_ranking_accuracy": 0.6266666666666667,
+          "kendall_tau": 0.35839146815241635,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "conventional_dynamics": [
+        {
+          "mean_regret": 73.72806549072266,
+          "median_regret": 39.543701171875,
+          "ci95_low": 43.35196199417114,
+          "ci95_high": 110.33995037078857,
+          "mean_cost": 1512.1893310546875,
+          "across_world_cvar_95": 1788.5140380859375,
+          "tail_cvar_95": 1788.5140380859375,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.3210372070101712,
+          "top1_accuracy": 0.13333333333333333,
+          "pairwise_ranking_accuracy": 0.5066666666666667,
+          "kendall_tau": 0.09595563266154518,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "standard_jepa": [
+        {
+          "mean_regret": 2.718229055404663,
+          "median_regret": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 6.542073726654053,
+          "mean_cost": 1441.1795654296875,
+          "across_world_cvar_95": 1768.2044677734375,
+          "tail_cvar_95": 1768.2044677734375,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.44856372444745424,
+          "top1_accuracy": 0.8666666666666667,
+          "pairwise_ranking_accuracy": 0.32666666666666666,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "matched_random_jepa": [
+        {
+          "mean_regret": 2.718229055404663,
+          "median_regret": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 6.542073726654053,
+          "mean_cost": 1441.1795654296875,
+          "across_world_cvar_95": 1768.2044677734375,
+          "tail_cvar_95": 1768.2044677734375,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.44856372444745424,
+          "top1_accuracy": 0.8666666666666667,
+          "pairwise_ranking_accuracy": 0.32666666666666666,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "generic_decision_jepa": [
+        {
+          "mean_regret": 2.718229055404663,
+          "median_regret": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 6.542073726654053,
+          "mean_cost": 1441.1795654296875,
+          "across_world_cvar_95": 1768.2044677734375,
+          "tail_cvar_95": 1768.2044677734375,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.44856372444745424,
+          "top1_accuracy": 0.8666666666666667,
+          "pairwise_ranking_accuracy": 0.32666666666666666,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "proposed_risk_sensitive_jepa": [
+        {
+          "mean_regret": 2.718229055404663,
+          "median_regret": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 6.542073726654053,
+          "mean_cost": 1441.1795654296875,
+          "across_world_cvar_95": 1768.2044677734375,
+          "tail_cvar_95": 1768.2044677734375,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.44856372444745424,
+          "top1_accuracy": 0.8666666666666667,
+          "pairwise_ranking_accuracy": 0.32666666666666666,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ]
+    },
+    "mechanism_shift": {
+      "rule_based": [
+        {
+          "mean_regret": 86.82630920410156,
+          "median_regret": 79.172607421875,
+          "ci95_low": 73.68598022460938,
+          "ci95_high": 99.51856632232665,
+          "mean_cost": 1372.2950439453125,
+          "across_world_cvar_95": 1827.4520263671875,
+          "tail_cvar_95": 1827.4520263671875,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.45148244433775986,
+          "top1_accuracy": 0.0,
+          "pairwise_ranking_accuracy": 0.27702702702702703,
+          "kendall_tau": -0.6324555320336759,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "forecast_optim": [
+        {
+          "mean_regret": 5.3928914070129395,
+          "median_regret": 5.710205078125,
+          "ci95_low": 4.951742720603943,
+          "ci95_high": 5.85327262878418,
+          "mean_cost": 1290.8616943359375,
+          "across_world_cvar_95": 1727.4910888671875,
+          "tail_cvar_95": 1727.4910888671875,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.1922472704489624,
+          "top1_accuracy": 0.0,
+          "pairwise_ranking_accuracy": 0.6824324324324325,
+          "kendall_tau": 0.2529822128134704,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "robust_optim": [
+        {
+          "mean_regret": 5.839559078216553,
+          "median_regret": 6.0445556640625,
+          "ci95_low": 5.422616243362427,
+          "ci95_high": 6.247807657718658,
+          "mean_cost": 1291.3084716796875,
+          "across_world_cvar_95": 1727.974365234375,
+          "tail_cvar_95": 1727.974365234375,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.1922472706146858,
+          "top1_accuracy": 0.0,
+          "pairwise_ranking_accuracy": 0.6216216216216216,
+          "kendall_tau": 0.06324555320336758,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "conventional_dynamics": [
+        {
+          "mean_regret": 9.169343948364258,
+          "median_regret": 6.0445556640625,
+          "ci95_low": 5.478243505954742,
+          "ci95_high": 16.05315442085266,
+          "mean_cost": 1294.63818359375,
+          "across_world_cvar_95": 1727.974365234375,
+          "tail_cvar_95": 1727.974365234375,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.21251247144567512,
+          "top1_accuracy": 0.0,
+          "pairwise_ranking_accuracy": 0.5135135135135135,
+          "kendall_tau": -0.13213654864453256,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "standard_jepa": [
+        {
+          "mean_regret": 86.82630920410156,
+          "median_regret": 79.172607421875,
+          "ci95_low": 73.68598022460938,
+          "ci95_high": 99.51856632232665,
+          "mean_cost": 1372.2950439453125,
+          "across_world_cvar_95": 1827.4520263671875,
+          "tail_cvar_95": 1827.4520263671875,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.45148244433775986,
+          "top1_accuracy": 0.0,
+          "pairwise_ranking_accuracy": 0.6824324324324325,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "matched_random_jepa": [
+        {
+          "mean_regret": 86.82630920410156,
+          "median_regret": 79.172607421875,
+          "ci95_low": 73.68598022460938,
+          "ci95_high": 99.51856632232665,
+          "mean_cost": 1372.2950439453125,
+          "across_world_cvar_95": 1827.4520263671875,
+          "tail_cvar_95": 1827.4520263671875,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.45148244433775986,
+          "top1_accuracy": 0.0,
+          "pairwise_ranking_accuracy": 0.6824324324324325,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "generic_decision_jepa": [
+        {
+          "mean_regret": 86.82630920410156,
+          "median_regret": 79.172607421875,
+          "ci95_low": 73.68598022460938,
+          "ci95_high": 99.51856632232665,
+          "mean_cost": 1372.2950439453125,
+          "across_world_cvar_95": 1827.4520263671875,
+          "tail_cvar_95": 1827.4520263671875,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.45148244433775986,
+          "top1_accuracy": 0.0,
+          "pairwise_ranking_accuracy": 0.6824324324324325,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ],
+      "proposed_risk_sensitive_jepa": [
+        {
+          "mean_regret": 86.82630920410156,
+          "median_regret": 79.172607421875,
+          "ci95_low": 73.68598022460938,
+          "ci95_high": 99.51856632232665,
+          "mean_cost": 1372.2950439453125,
+          "across_world_cvar_95": 1827.4520263671875,
+          "tail_cvar_95": 1827.4520263671875,
+          "stockout_rate": 1.0,
+          "mean_fill_rate": 0.45148244433775986,
+          "top1_accuracy": 0.0,
+          "pairwise_ranking_accuracy": 0.6824324324324325,
+          "kendall_tau": 0.0,
+          "catastrophic_inversion_rate": 0.0,
+          "fallback_rate": 0.0
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 1.6286330223083496,
+  "config": {
+    "n_train_worlds": 40,
+    "n_val_worlds": 10,
+    "n_test_worlds_per_regime": 15,
+    "n_splits": 1,
+    "epochs": 1,
+    "device": "cpu",
+    "seed": 9601
+  }
+}

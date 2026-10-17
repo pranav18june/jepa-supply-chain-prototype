@@ -1,0 +1,9 @@
+{
+  "n_train_worlds": 40,
+  "n_val_worlds": 10,
+  "n_test_worlds_per_regime": 15,
+  "n_splits": 2,
+  "epochs": 15,
+  "device": "cpu",
+  "seed": 9601
+}

@@ -1,0 +1,15 @@
+{
+  "dataset_path": "prototype_new/data/fresh_retail_net/data/train_sample300_seed6101.parquet",
+  "dataset_revision": "c374e85975c82816c495acfa904cc55ab14a47d3",
+  "history": 14,
+  "train_end": "2024-05-31",
+  "validation_end": "2024-06-12",
+  "test_end": "2024-06-25",
+  "epochs": 20,
+  "pretrain_epochs": 20,
+  "seeds": [0, 1, 2, 3, 4],
+  "latent": 32,
+  "batch_size": 256,
+  "lr": 0.002,
+  "holdout_status": "Pre-registered 2026-10-17 before fitting: random row-group entity sample (300 of the official train row groups, seed 6101). Same chronological target dates as retail_audited; test dates June 13-25 never used for fitting, normalization or selection. Official eval excluded."
+}

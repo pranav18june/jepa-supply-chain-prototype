@@ -1,0 +1,12 @@
+{
+  "dataset_path": "prototype_new/data/fresh_retail_net/data/train_subset.parquet",
+  "dataset_revision": "c374e85975c82816c495acfa904cc55ab14a47d3",
+  "series": 256,
+  "history": 5,
+  "train_end": "2024-05-31",
+  "validation_end": "2024-06-12",
+  "test_end": "2024-06-25",
+  "epochs": 20,
+  "seed": 5701,
+  "holdout_status": "Frozen chronological split of a pinned official-train subset. Test dates June 13\u201325 excluded from fitting and epoch selection; official eval excluded. Convenience subset, not full benchmark."
+}

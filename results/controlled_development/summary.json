@@ -1,0 +1,74 @@
+{
+  "track": "B: locally adapted ISOMORPH; assumed costs; engineering smoke",
+  "methods": {
+    "native_policy": {
+      "cost_mean": 697.177375,
+      "cost_bootstrap95": [
+        616.7258750000001,
+        793.51325
+      ],
+      "fill_rate_mean": 1.0,
+      "episodes": 8,
+      "fallback_count": 0
+    },
+    "random_feasible": {
+      "cost_mean": 2422.35525,
+      "cost_bootstrap95": [
+        2163.644515625,
+        2657.04994375
+      ],
+      "fill_rate_mean": 1.0,
+      "episodes": 8,
+      "fallback_count": 0
+    },
+    "ema_jepa": {
+      "cost_mean": 1806.12725,
+      "cost_bootstrap95": [
+        967.9574499999999,
+        2913.8664781249995
+      ],
+      "fill_rate_mean": 0.9377317287108671,
+      "episodes": 8,
+      "fallback_count": 0
+    },
+    "sigreg_jepa": {
+      "cost_mean": 1004.977875,
+      "cost_bootstrap95": [
+        783.3324625000001,
+        1358.93568125
+      ],
+      "fill_rate_mean": 0.9887424063162726,
+      "episodes": 8,
+      "fallback_count": 0
+    },
+    "supervised": {
+      "cost_mean": 1798.5408750000001,
+      "cost_bootstrap95": [
+        1122.3736156250002,
+        2559.980753124999
+      ],
+      "fill_rate_mean": 0.928317928644178,
+      "episodes": 8,
+      "fallback_count": 0
+    },
+    "no_action": {
+      "cost_mean": 2544.385125,
+      "cost_bootstrap95": [
+        2338.6733750000003,
+        2713.99325625
+      ],
+      "fill_rate_mean": 1.0,
+      "episodes": 8,
+      "fallback_count": 0
+    }
+  },
+  "elapsed_seconds": 58.79893304198049,
+  "source_commit": "9ab2689cbbe02ef5e9bb614f5e9ea60df159abc7",
+  "limitations": [
+    "Small sample; not a confirmatory benchmark",
+    "Fixed topology with 3-item catalog",
+    "Source lead-time RNG consumption can differ by policy; paired seeds are not full CRN",
+    "No calibrated uncertainty claim",
+    "Final holdout not used for checkpoint selection"
+  ]
+}

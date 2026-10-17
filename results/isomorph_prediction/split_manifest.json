@@ -1,0 +1,222 @@
+[
+  {
+    "rollout": "train_0",
+    "seed": 4701,
+    "config_hash": "80348bf0988d2f1433fc6f3565924e78fa4049981ba5c70610aaa27d624b3c86",
+    "split": "train",
+    "scenario": {
+      "ss_scale": 0.05291277324573907,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "train_1",
+    "seed": 4702,
+    "config_hash": "e513625d8512c5f6e47e382dce299bc4a5924517e210ea23af87ef4819033622",
+    "split": "train",
+    "scenario": {
+      "ss_scale": 0.1037398738050311,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "train_2",
+    "seed": 4703,
+    "config_hash": "1f8711745df362beced9b3af3113bf959553e5c8095387e88ba431fcc3e0c4d2",
+    "split": "train",
+    "scenario": {
+      "ss_scale": 0.11682874346818775,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "train_3",
+    "seed": 4704,
+    "config_hash": "c9395e1f71703624baceccc0e1ca76fb7fce098942767ebbac5e8def0c86cd3b",
+    "split": "train",
+    "scenario": {
+      "ss_scale": 0.04967869378644704,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "train_4",
+    "seed": 4705,
+    "config_hash": "e681a359b40d891125f4763dbb941663f18c76a0b01fc20a7cc569bcecabad78",
+    "split": "train",
+    "scenario": {
+      "ss_scale": 0.04508489526562302,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "train_5",
+    "seed": 4706,
+    "config_hash": "23f775f29aff858a26cee374308177837a02d1ed3c7a5add3d9e29fc047ae75f",
+    "split": "train",
+    "scenario": {
+      "ss_scale": 0.055667565932546466,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "train_6",
+    "seed": 4707,
+    "config_hash": "95ed5b87c3d4afc135c42dc6408d29b96a26e9e073b433ff4b5714fc9609ab41",
+    "split": "train",
+    "scenario": {
+      "ss_scale": 0.07225588661200298,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "train_7",
+    "seed": 4708,
+    "config_hash": "9eec42d8444b5dc09547e744a2f24934fd350901a7d72d818904bfbe91c87949",
+    "split": "train",
+    "scenario": {
+      "ss_scale": 0.12827377145542498,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "train_8",
+    "seed": 4709,
+    "config_hash": "3e1bac003daf24b78e654971b33d0fdc585f7f86a6c71c247906db65bec5889c",
+    "split": "train",
+    "scenario": {
+      "ss_scale": 0.0766434257864317,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "train_9",
+    "seed": 4710,
+    "config_hash": "0d73d975211f683491be1725fe64c93b8c9f4742d3ff752fc204ba11f9d5ba43",
+    "split": "train",
+    "scenario": {
+      "ss_scale": 0.1401676996603987,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "train_10",
+    "seed": 4711,
+    "config_hash": "8e1392daaddbfc54863931e66063bf8fe37a2629b1e2055dfcbaf795c65eb523",
+    "split": "train",
+    "scenario": {
+      "ss_scale": 0.055233844567862685,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "train_11",
+    "seed": 4712,
+    "config_hash": "a6eb633661fa706d4167f7ec93a59eb1187b216350357a60f16b112d3d48f882",
+    "split": "train",
+    "scenario": {
+      "ss_scale": 0.13388218345749486,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "validation_0",
+    "seed": 4713,
+    "config_hash": "7a93ae4b99b5d071781cb8e99b5afe5d4ab0c6fedf6af5c0c095dc173261543f",
+    "split": "validation",
+    "scenario": {
+      "ss_scale": 0.03421906103520685,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "validation_1",
+    "seed": 4714,
+    "config_hash": "239d2a6eddaba4a683be7ad5348047473a17a932a87d86a83c01377489581c6d",
+    "split": "validation",
+    "scenario": {
+      "ss_scale": 0.05760405578025862,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "validation_2",
+    "seed": 4715,
+    "config_hash": "24572734d0812de65832ee85475d03fa998d83bbf0925a517ecbaee82b727a65",
+    "split": "validation",
+    "scenario": {
+      "ss_scale": 0.041623441180291515,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "validation_3",
+    "seed": 4716,
+    "config_hash": "f0f6d04062f6ac12ff56f8d8d955ca28cb11dc6ccfb3648567d1fa361f801e1a",
+    "split": "validation",
+    "scenario": {
+      "ss_scale": 0.08384485769071118,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "test_0",
+    "seed": 4717,
+    "config_hash": "8f9d80fc128210db80d5cfdd2f09827dd8a9e993d1a1a272c1560aea90d266e7",
+    "split": "test",
+    "scenario": {
+      "ss_scale": 0.043364610063030204,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "test_1",
+    "seed": 4718,
+    "config_hash": "2bd7cd2fede123149b45ce5bd00591ef4a4980261d4ff63fdef02790e259f0f8",
+    "split": "test",
+    "scenario": {
+      "ss_scale": 0.030616935428719443,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "test_2",
+    "seed": 4719,
+    "config_hash": "53b8d8829aa58ba82eab19304d7226b1e66e904b41d0a615542eb12c229993ce",
+    "split": "test",
+    "scenario": {
+      "ss_scale": 0.11797171404361648,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  },
+  {
+    "rollout": "test_3",
+    "seed": 4720,
+    "config_hash": "c0ecb192f055bf266e7a80f9d190bffa8885651489d1cf510712a45ca169f916",
+    "split": "test",
+    "scenario": {
+      "ss_scale": 0.0446964687376455,
+      "base_lambda_lo": 32.0,
+      "base_lambda_hi": 48.0
+    }
+  }
+]

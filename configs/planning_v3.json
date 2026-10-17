@@ -1,0 +1,14 @@
+{
+  "data": "prototype_new/results/decision_v3d/data",
+  "models": "prototype_new/results/decision_v3d/models",
+  "decision_days": 60,
+  "tail_days": 14,
+  "horizon": 7,
+  "samples": 64,
+  "elites": 8,
+  "iterations": 3,
+  "init_std": 150.0,
+  "basestock_grid": [3, 4, 5, 6, 7, 8, 9, 10, 12],
+  "costs": {"holding": 0.001, "backlog": 1.0, "transport": 0.01},
+  "workers": 8
+}

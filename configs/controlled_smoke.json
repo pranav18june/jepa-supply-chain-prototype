@@ -1,0 +1,17 @@
+{
+  "seed": 1701,
+  "days": 24,
+  "n_items": 3,
+  "maximum": 600,
+  "horizon": 3,
+  "train_rollouts": 12,
+  "validation_rollouts": 4,
+  "test_rollouts": 4,
+  "epochs": 15,
+  "ensemble_members": 2,
+  "samples": 32,
+  "elites": 4,
+  "iterations": 3,
+  "latent_dim": 64,
+  "goal": {"holding": 1.0, "backlog": 1.0, "transport": 1.0, "uncertainty": 0.0}
+}

@@ -1,0 +1,12 @@
+{
+  "n_train_worlds": 20,
+  "n_val_worlds": 5,
+  "n_calib_worlds": 8,
+  "n_test_worlds_per_regime": 10,
+  "n_splits": 1,
+  "epochs": 8,
+  "ensemble_size": 2,
+  "device": "cpu",
+  "seed": 9601,
+  "gate_metric": "top_action_disagreement"
+}
